@@ -6,11 +6,11 @@
 5. Utilizamos time.sleep(1) para pausar la ejecución durante 1 segundo, simulando un tiempo de procesamiento.
 """
 import time
-# Loop to simulate progress updates
+# simulador de progreso
 for i in range(10):
     # Print progress
-    print(f"Progress: {i}/10", end='\r')
-    # Simulate some processing time
+    print(f"Progreso: {i}/10", end='\r')
+    # periodo de un segundo
     time.sleep(1)
 
-print("\nTask complete!")
+print("\nCompleto")
